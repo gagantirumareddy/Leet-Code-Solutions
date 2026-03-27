@@ -1,0 +1,59 @@
+<h2>
+  <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/">
+    Best Time to Buy and Sell Stock II
+  </a>
+</h2>
+
+<img src="https://img.shields.io/badge/Difficulty-Medium-yellow" alt="Difficulty: Medium" />
+
+<hr>
+
+<p>
+You are given an integer array <code>prices</code> where <code>prices[i]</code> is the price of a given stock on the <code>i<sup>th</sup></code> day.
+</p>
+
+<p>
+On each day, you may decide to buy and/or sell the stock.
+</p>
+
+<p>
+You can only hold at most one share of the stock at any time. However, you can buy it then immediately sell it on the same day.
+</p>
+
+<p>
+Find and return the maximum profit you can achieve.
+</p>
+
+<p><strong class="example">Example 1:</strong></p>
+
+<pre>
+<strong>Input:</strong> prices = [7,1,5,3,6,4]
+<strong>Output:</strong> 7
+<strong>Explanation:</strong> Buy on day 2 (price = 1) and sell on day 3 (price = 5), profit = 4.
+Then buy on day 4 (price = 3) and sell on day 5 (price = 6), profit = 3.
+Total profit = 7.
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> prices = [1,2,3,4,5]
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> Buy on day 1 (price = 1) and sell on day 5 (price = 5), profit = 4.
+Total profit = 4.
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> prices = [7,6,4,3,1]
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> There is no way to make a positive profit.
+</pre>
+
+<p><strong>Constraints:</strong></p>
+
+<ul>
+  <li><code>1 &lt;= prices.length &lt;= 3 * 10<sup>4</sup></code></li>
+  <li><code>0 &lt;= prices[i] &lt;= 10<sup>4</sup></code></li>
+</ul>
